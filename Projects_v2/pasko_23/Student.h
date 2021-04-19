@@ -22,15 +22,32 @@ protected:
 public:
 
     // Конструктор
-    Human(int setWeight, int setHeight) {
+    Human() 
+    {
+        weight = 0;
+        height = 0;
+        hours = 0;
+    }
+
+    // Конструктор с параметрами
+    Human(int setWeight, int setHeight) 
+    {
         weight = setWeight;
         height = setHeight;
+        hours = 0;
+    }
+
+    // Конструктор копирования
+    Human(Human &human)
+    : weight(human.weight), height(human.height)
+    {
         hours = 0;
     }
 
     // Деструктор
     ~Human() 
     {
+        //Очистка памяти: delete ...
     }
 
     int weight;
@@ -39,10 +56,12 @@ public:
 
     int hours;
 
+    // Геттер
     virtual int getTime() {
         return hours;
     }
 
+    // Сеттер
     void setTime(int hoursToSet)
     {
         hours = hoursToSet;

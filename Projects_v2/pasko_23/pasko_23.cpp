@@ -24,6 +24,8 @@ int main()
     Worker* worker = new Worker(150, 160);
     worker->setTime(8);
 
+    cout << "Worker time: " << worker->getTime() << endl;
+
     UnrealWorker* unWorker = new UnrealWorker(40, 160);
     unWorker->setTime(8);
 
@@ -32,17 +34,17 @@ int main()
 
     //=================== Пример 2 ====================
     
-    Student* student = new Student;
+    //Student* student = new Student;
 
-    string name;
-    string last_name;
+    //string name;
+    //string last_name;
 
-    // Ввод имени с клавиатуры
-    cout << "Name: ";
-    getline(std::cin, name);
+    //// Ввод имени с клавиатуры
+    //cout << "Name: ";
+    //getline(std::cin, name);
 
-    // Сохранение имени и фамилии в объект класса Students
-    student->setName(name);
+    //// Сохранение имени и фамилии в объект класса Students
+    //student->setName(name);
 
-    cout << student->getName();
+    //cout << student->getName();
 }
