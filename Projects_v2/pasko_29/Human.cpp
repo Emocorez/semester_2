@@ -38,9 +38,9 @@ void Human::work() {
 
 void Human::addWorkPlace(WorkPlace* place) 
 {
-    workPlaces->addElemEnd<WorkPlace>(place);
+    workPlaces->addElemEnd(place);
 }
 
 void Human::printWorkPlaces() {
-    workPlaces->print<WorkPlace>();
+    workPlaces->print();
 }

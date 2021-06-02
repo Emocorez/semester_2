@@ -1,4 +1,7 @@
 // Calling operator[] issue: https://stackoverflow.com/questions/9957936/c-array-subscript-operator-template
+// More info:
+// https://isocpp.org/wiki/faq/templates#templates-defn-vs-decl
+// https://stackoverflow.com/questions/115703/storing-c-template-function-definitions-in-a-cpp-file
 
 #include <iostream>
 #include "List.h"
@@ -16,12 +19,12 @@ int main()
 
 	lst->addElemEnd(place1);
 
-	WorkPlace* first = (*lst).operator[]<WorkPlace>(1);
+	WorkPlace* first = (*lst).operator[](1);
 
 	cout << "Second place: " << (*first) << endl;
 
 	cout << "\nAll items:" << endl;
-	lst->print<WorkPlace>();
+	lst->print();
 
 	// Create human and print work places
 

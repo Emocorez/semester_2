@@ -14,7 +14,6 @@ public:
 		head == NULL;
 	}
 
-	template <typename T>
 	Node<T>* init(T* item)  // à - value of first node
 	{
 		Node<T>* lst;
@@ -31,7 +30,6 @@ public:
 	}
 
 
-	template<typename T>
 	void print()
 	{
 		Node<T>* current = head;
@@ -43,7 +41,6 @@ public:
 		}
 	}
 
-	template <typename T>
 	Node<T>* addElemEnd(T* item)
 	{
 		Node<T>* newElem;
@@ -71,7 +68,6 @@ public:
 		return newElem;
 	}
 
-	template <typename T>
 	T* operator[] (const int index)
 	{
 		Node<T>* current = head;
