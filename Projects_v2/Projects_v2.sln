@@ -36,6 +36,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pasko_28", "pasko_28\pasko_
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pasko_29", "pasko_29\pasko_29.vcxproj", "{F75E4127-41D9-4CA9-9E3F-EAE43F15085A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pasko_30", "pasko_30\pasko_30.vcxproj", "{974676D5-72F4-403D-80E9-E05047451644}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -164,6 +166,14 @@ Global
 		{F75E4127-41D9-4CA9-9E3F-EAE43F15085A}.Release|x64.Build.0 = Release|x64
 		{F75E4127-41D9-4CA9-9E3F-EAE43F15085A}.Release|x86.ActiveCfg = Release|Win32
 		{F75E4127-41D9-4CA9-9E3F-EAE43F15085A}.Release|x86.Build.0 = Release|Win32
+		{974676D5-72F4-403D-80E9-E05047451644}.Debug|x64.ActiveCfg = Debug|x64
+		{974676D5-72F4-403D-80E9-E05047451644}.Debug|x64.Build.0 = Debug|x64
+		{974676D5-72F4-403D-80E9-E05047451644}.Debug|x86.ActiveCfg = Debug|Win32
+		{974676D5-72F4-403D-80E9-E05047451644}.Debug|x86.Build.0 = Debug|Win32
+		{974676D5-72F4-403D-80E9-E05047451644}.Release|x64.ActiveCfg = Release|x64
+		{974676D5-72F4-403D-80E9-E05047451644}.Release|x64.Build.0 = Release|x64
+		{974676D5-72F4-403D-80E9-E05047451644}.Release|x86.ActiveCfg = Release|Win32
+		{974676D5-72F4-403D-80E9-E05047451644}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
